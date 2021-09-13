@@ -51,7 +51,7 @@ module recoveryServices './main.bicep' = {
 
 ### Example 4 - Recovery services vault with backup policies
 ``` bicep
-param deploymentName string = 'automationAccount${utcNow()}'
+param deploymentName string = 'recoveryServices${utcNow()}'
 
 module recoveryServices './main.bicep' = {
   name: deploymentName  
